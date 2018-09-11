@@ -14,7 +14,6 @@ h4   { font-size: .5rem;
        padding-left: 20px;
        font-weight: normal;
        font:
-
      }
 span {
         font-size: 0.5em;
@@ -66,12 +65,11 @@ ul.topnav li.right {float: right;}
 
 header {
   align-items: left;
-  background: #2494FF;
+  background: #4B0082;
+  opacity: .8;
   display: flex;
   min-height: 200px;
   padding-left: 15px;
-  /*border-bottom: 10px solid #eeeeee;
-  margin-bottom: 15px;*/
 }
 main section {
   padding: 25px;
@@ -89,6 +87,8 @@ section ul li:before {
 /* GRID */
 
 main {
+  background:#4B0082;
+  min-height: 200px;
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
