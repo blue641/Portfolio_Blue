@@ -1,0 +1,129 @@
+/* TYPOGRAPHY */
+
+html { font-size: 18px; }
+h1   { font-size: 2rem;
+       text-align: left;
+       color: white;
+}
+h2   { font-size: 2rem; }
+h3   { font-size: 1.5rem; }
+p    { font-size: 1rem; }
+a    { font-size: 1.1rem; }
+h4   { font-size: .5rem;
+       float: left;
+       padding-left: 20px;
+       font-weight: normal;
+       font:
+
+     }
+span {
+        font-size: 0.5em;
+      }
+body {background-color: white;}
+
+a:hover {
+  color: inherit;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* GENERAL */
+
+/*nav {
+  height: 10px;
+  background: #d4b3b3;
+  border-bottom: 1px solid #eeeeee;
+}
+*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+  ;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+ul.topnav li a:hover:not(.active) {background-color: #333;}
+
+ul.topnav li a.active {background-color: #4F350A;}
+
+ul.topnav li.right {float: right;}
+
+header {
+  align-items: left;
+  background: #2494FF;
+  display: flex;
+  min-height: 200px;
+  padding-left: 15px;
+  /*border-bottom: 10px solid #eeeeee;
+  margin-bottom: 15px;*/
+}
+main section {
+  padding: 25px;
+}
+/*main section:nth-child(even) {
+  background: #d4b3b3ab;
+}*/
+section ul li {
+  list-style-type: none;
+}
+section ul li:before {
+  content: '✓';
+}
+
+/* GRID */
+
+main {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+}
+section.more-content {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat( auto-fit, minmax(190px, 1fr) )
+}
+
+
+/* SECTION CONTENT */
+
+img.section-content-width {
+  width: 150px;
+}
+img.section-portfolio-width {
+  width: 100%;
+}
+img.img-float-left {
+  float: left;
+  padding: 0px 15px 15px 0px;
+}
+
+/* For Phones*/
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+li a.active {
+    background-color: #270242;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #4F350A;
+    color: white;
+}
