@@ -1,14 +1,30 @@
 /* TYPOGRAPHY */
 
-html { font-size: 18px; }
-h1   { font-size: 2rem;
-       text-align: left;
-       color: white;
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+html, body, h1, h2, h3, h4, h5, h6, a {
+  font-family: "Quattrocento Sans", sans-serif;
 }
-h2   { font-size: 2rem; }
-h3   { font-size: 1.5rem; }
-p    { font-size: 1rem; }
-a    { font-size: 1.1rem; }
+
+html { font-size: 18px; }
+h1   { font-size: 3rem;
+       text-align: left;
+       color: black;
+
+       font-weight: bold;
+}
+h2   { font-size: 2rem;
+
+     }
+h3   { font-size: 1.5rem;
+
+     }
+p    { font-size: 1rem;
+
+     }
+a    { font-size: 1.1rem;
+
+      }
 h4   { font-size: .5rem;
        float: left;
        padding-left: 20px;
@@ -17,6 +33,7 @@ h4   { font-size: .5rem;
      }
 span {
         font-size: 0.5em;
+
       }
 body {background-color: white;}
 
@@ -65,7 +82,7 @@ ul.topnav li.right {float: right;}
 
 header {
   align-items: left;
-  background: #4B0082;
+  background: white;
   opacity: .8;
   display: flex;
   min-height: 200px;
@@ -87,7 +104,7 @@ section ul li:before {
 /* GRID */
 
 main {
-  background:#4B0082;
+  background-color: white;
   min-height: 200px;
   display: grid;
   grid-gap: 15px;
@@ -99,7 +116,10 @@ section.more-content {
   grid-template-columns: repeat( auto-fit, minmax(190px, 1fr) )
 }
 
-
+footer{
+  background: white;
+  min-height: 50px;
+}
 /* SECTION CONTENT */
 
 img.section-content-width {
