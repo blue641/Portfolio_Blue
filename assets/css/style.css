@@ -45,12 +45,6 @@ a:hover {
 
 /* GENERAL */
 
-/*nav {
-  height: 10px;
-  background: #d4b3b3;
-  border-bottom: 1px solid #eeeeee;
-}
-*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -91,9 +85,7 @@ header {
 main section {
   padding: 25px;
 }
-/*main section:nth-child(even) {
-  background: #d4b3b3ab;
-}*/
+
 section ul li {
   list-style-type: none;
 }
